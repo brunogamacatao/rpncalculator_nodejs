@@ -1,0 +1,5 @@
+{
+  "error.empty_stack": "Você tentou executar uma operação sem antes informar valores",
+  "error.invalid_command": "Erro de sintaxe. Você informou um comando inválido",
+  "error.stopped_interpreter": "O interpretador está parado. Não é possível executar mais comandos"
+}

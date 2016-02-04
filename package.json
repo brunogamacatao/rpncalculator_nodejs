@@ -1,0 +1,21 @@
+{
+  "name": "rpncalculator",
+  "version": "1.0.0",
+  "description": "Node.JS implementation of RPN Calculator Exercise",
+  "main": "src/index.js",
+  "directories": {
+    "test": "src/test"
+  },
+  "scripts": {
+    "test":     "mocha --recursive --reporter spec src/test/*.js",
+    "coverage": "istanbul cover _mocha -- -R spec src/test/**/*",
+    "start":    "node src/index"
+  },
+  "author": "Bruno Catao",
+  "license": "ISC",
+  "dependencies": {
+    "i18n": "^0.6.0",
+    "isnumeric": "^0.3.1",
+    "underscore": "^1.8.3"
+  }
+}
