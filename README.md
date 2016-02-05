@@ -22,16 +22,20 @@ In order to run this project you'll need to have installed:
 
 2. Mocha - Test framework
   To install, run at terminal: npm install -g mocha
+  
   If you're on osx, run: sudo npm install -g mocha
 
 2. Istanbul - Code coverage tool
   To install, run at terminal: npm install -g istanbul 
+  
   If you're on osx, run: sudo npm install -g istanbul 
 
 ## Building
 
-git clone 
-cd
+git clone https://github.com/brunogamacatao/rpncalculator_nodejs.git
+
+cd rpncalculator_nodejs
+
 npm install
 
 ## Testing
