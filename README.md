@@ -18,14 +18,17 @@ The code relies on the following dependencies:
 In order to run this project you'll need to have installed:
 
 1. Node.js - JavaScript server runtime
+
   It is available at https://nodejs.org
 
 2. Mocha - Test framework
+
   To install, run at terminal: npm install -g mocha
   
   If you're on osx, run: sudo npm install -g mocha
 
 2. Istanbul - Code coverage tool
+
   To install, run at terminal: npm install -g istanbul 
   
   If you're on osx, run: sudo npm install -g istanbul 
