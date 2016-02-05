@@ -1,4 +1,4 @@
-# Java RPN Calculator
+# Node.js RPN Calculator
 
 This is an implementation for the RPN Calculator problem.
 It is written in JavaScript programming language for Node.JS, it has message internationalization, unit tests and code coverage support.
