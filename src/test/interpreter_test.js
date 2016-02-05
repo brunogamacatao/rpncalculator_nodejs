@@ -20,6 +20,8 @@ describe('Interpreter tests', function() {
     assert.equal("7", interpreter.execute("-"));
     interpreter.execute("2");
     assert.equal("3.5", interpreter.execute("/"));
+    interpreter.execute("5");
+    assert.equal("17.5", interpreter.execute("*"));
   });
 
   it('should not allow invalid commands', function() {
